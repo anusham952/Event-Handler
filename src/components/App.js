@@ -3,7 +3,7 @@ import "../styles/App.css";
 const App = () => {
   const handleClick = (event) => {
     // use console.log
-    console.log(`Button id is:-"${event.target.id}`);
+    console.log(`Button id is:-${event.target.id}`);
   };
 
   // do not remove the two buttons or change their id
