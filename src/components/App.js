@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import '../styles/App.css';
 const App = () => {
 
   const handleClick = (event) =>{
     // use console.log
-    console.log('Button id is:-',event.target.id);
+    console.log("Button id is:-", event.target.id);
 
   }
 
@@ -14,8 +14,8 @@ const App = () => {
       <button id="button-a" onClick={handleClick}>Button A</button>
       <button id="button-b" onClick={handleClick}>Button B</button>
     </div>
-  )
-}
+  );
+};
 
 
 export default App;
